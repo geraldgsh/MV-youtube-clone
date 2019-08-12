@@ -84,3 +84,30 @@ header{
     top: 5px;
     right: 10px;
 }
+
+.wrapper{
+	display: grid;
+    grid-template-columns: 2fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr;
+  	grid-template-areas: "VideoSection UpNext" "VideoSection UpNext" "CommentSection UpNext";
+    margin-top: 3.5em;
+    grid-gap: 1em;
+}
+
+.wrapper > div{
+	background:#eee;
+	border: black solid;
+	padding: 1em;
+}
+
+.wrapper > div:nth-child(odd){
+	background:#ddd;
+	border: black solid;
+	padding: 1em;
+} 
+
+.UpNext { grid-area: UpNext; }
+
+.VideoSection { grid-area: VideoSection; }
+
+.CommentSection { grid-area: CommentSection; }
