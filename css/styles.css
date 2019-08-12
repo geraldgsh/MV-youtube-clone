@@ -33,3 +33,54 @@ header{
     display: grid;
     grid-template-columns: repeat(4, 1fr)
 }
+.nav_button {
+    position: relative;
+    top: 10px;
+}
+    
+.mini_logo {
+    position: relative;
+    top: 6px;
+}
+
+#search{
+    font-size: 103%;
+    width: 100%;
+    position: relative;
+    top: 12px;
+    padding: 4px;
+}
+
+.search_btn {
+    float: right;
+    position: relative;
+    top: -17px;
+    height: 28px;
+    width: 40px;
+    left: 10px;
+}
+    
+.apps-button {
+    position: relative;
+    top: 17px;
+    left: 15px;
+}
+    
+.upload {
+    position: relative;
+    top: 13px;
+    left: 12px;
+}
+    
+.bell_icon {
+    position: relative;
+    top: 18px;
+    left: 15px;
+}
+    
+.profile_icon {
+    width: 45px;
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
