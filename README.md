@@ -4,6 +4,6 @@ Building an HTML document that matches the appearance of youtube video player pa
 
 - Added a embeded video
 - Added comments
-- Add description
+- Add video description
 
 Contributors: Gerald & David
