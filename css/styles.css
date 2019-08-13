@@ -112,8 +112,16 @@ header{
 
 .CommentSection { grid-area: CommentSection; }
 
+.video-container{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style: dotted;
+}
+
 .description-1 p:first-of-type {
-    margin-bottom: 1em;
+    margin-bottom: 0;
 }
 
 .description-1 p:last-of-type {
@@ -127,8 +135,17 @@ header{
 .description-1 {
     border-bottom: 1px solid lightgray;
     margin-bottom: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     margin-top: 1em;
+    position: relative;
+}
+
+.description-2 {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+    position: relative;
 }
 
 .name {
@@ -139,11 +156,10 @@ header{
     float: right;
 }
 
-.description-2 p {
-    margin-top: 2em;
-    margin-right: 6em;
-    float: left;
+.desc-2-text p{
+    text-align: left;
 }
+
 
 .more {
     margin-top: 14em;
@@ -151,6 +167,7 @@ header{
 }
 
 .more a {
+    text-align: center;
     text-decoration: none;
     color: gray;
 }
