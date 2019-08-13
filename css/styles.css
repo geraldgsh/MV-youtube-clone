@@ -260,7 +260,42 @@ header{
 }
 /* END UP NEXT SECTION*/
 
-/* Comment Section */
+/* INIT COMMENT SECTION  */
+
+.section-line {
+    position: relative;
+    width: 90%;
+    height: 2px;
+    background-color: #d6d6d6;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    left: 35px;
+}
+
+.comments-head p {
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 1px;
+    float: left;
+}
+
+.comments-head img {
+    float: left;
+    position: relative;
+    top: 3px; 
+}
+
+#comment-count{
+    margin-right: 13px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.sort-by {
+    color: #767676;
+    left: 6px;
+    bottom: 3px;
+}
 
 .add-comment input {
     width: 780px;
@@ -272,44 +307,6 @@ header{
     width: 64px;
     margin: 2px;
     float: left;
-    margin-top: 3em;
 }
 
-.comment h5 {
-    display: inline;
-}
-
-.comment p {
-    display: inline;
-    font-size: 10pt;
-}
-
-.commenter-avatar {
-    height: 100%;
-    width: 64px;
-    margin: 2px;
-    float: left;
-}
-
-.comment-date {
-    font-size: 9pt;
-    color: #767676;
-    margin-left: 3px;
-}
-
-.commenter-avatar {
-    height: 100%;
-    width: 64px;
-    margin: 2px;
-    float: left;
-}
-
-#comment-actions {
-    color: #767676;
-    font-size: 10pt;
-}
-
-#comment-actions p {
-    margin-bottom: 7px;
-    margin-right: 6px;
-}
+/* END COMMENT SECTION  */
