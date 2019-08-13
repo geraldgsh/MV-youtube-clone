@@ -224,3 +224,39 @@ header{
     color: gray;
     font-size: 1em;
 }
+
+/* INIT UP NEXT SECTION*/
+#up-next{
+    font-size: 16pt;
+    color: #767676;
+}
+
+.videos-right{
+    width: 100%;
+    height: 102px;
+    margin-bottom: 5px;
+}
+
+.videos-right h5, p{
+ margin: 2px;
+}
+
+.video-thumbnail{
+    float: left;
+    margin-right: 10px;
+}
+
+.video-thumbnail img {
+    width: 168px;
+    height: 94px;
+}
+
+.name-video{
+    font-size: 16pt;
+}
+
+.video-uploader {
+    color: #767676;
+    font-size: 12pt;
+}
+/* END UP NEXT SECTION*/
