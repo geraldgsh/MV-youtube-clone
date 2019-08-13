@@ -1,9 +1,10 @@
 body {
   font-family: sans-serif;
-  background-color: #f2f2f2;
+  background-color: white;
   font-weight: 300;
 }
 
+/* INIT NAVIGATION BAR */
 header{
 	grid-area: header;
 	height: 55px;
@@ -84,6 +85,7 @@ header{
     top: 5px;
     right: 10px;
 }
+/* END NAVIGATION BAR */
 
 .wrapper{
 	display: grid;
@@ -95,13 +97,13 @@ header{
 }
 
 .wrapper > div{
-	background:#eee;
+	background: white;
 	border: black solid;
 	padding: 1em;
 }
 
 .wrapper > div:nth-child(odd){
-	background:#ddd;
+	background: white;
 	border: black solid;
 	padding: 1em;
 } 
@@ -112,6 +114,7 @@ header{
 
 .CommentSection { grid-area: CommentSection; }
 
+/* INIT VIDEO SECTION*/
 .video-container {
   position: relative;
   padding-bottom: 52.4%; /*16:9*/
@@ -180,49 +183,8 @@ header{
     color: gray;
     float: left;
 }
+/* END UP VIDEO SECTION*/
 
-.no-of-comments {
-    width: 26.4%
-    position: relative;
-    top: 1em;
-    float: left;
-}
-
-.sort-by {
-    position: relative;
-    left: 2em;
-    width: 20%;
-    float: left;
-}
-
-.sort-by p {
-    position: relative;
-    left: 2.5em;
-    bottom: 1.8em;
-    color: gray;
-    font-size: 0.9em;
-}
-
-.sort-by a {
-    text-decoration: none;
-}
-
-
-.comment-box {
-    position: relative;
-    left: 5em;
-    bottom: 3em;
-    margin-right: 5em;
-    top: 1em;
-}
-
-.comment-box input {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid lightgray;
-    color: gray;
-    font-size: 1em;
-}
 
 /* INIT UP NEXT SECTION*/
 #up-next{
@@ -307,7 +269,7 @@ header{
     position: relative;
     float: right;
     bottom: 45px;
-    right: 50px;
+    right: 75px;
 }
 
 .user-avatar {
@@ -316,6 +278,52 @@ header{
     margin: 2px;
     position: relative;
     left: 50px;
+}
+
+.comment h5 {
+    display: inline;
+}
+
+.comment{
+    position: relative;
+    width: 50%;
+    height: 80px;
+}
+
+.comment p {
+    display: inline;
+    font-size: 10pt;
+}
+
+.commenter-avatar {
+    height: 100%;
+    width: 64px;
+    margin: 2px;
+    position: relative;
+    left: 50px;
+    top: 20px; 
+}
+
+.comment-date {
+    font-size: 9pt;
+    color: #767676;
+    margin-left: 3px;
+}
+
+#comment-actions {
+    color: #767676;
+    font-size: 10pt;
+}
+
+#comment-actions p {
+    margin-bottom: 1px;
+    margin-right: 6px;
+}
+
+#comment-enclosure{
+    position: relative;
+    left: 120px;
+    bottom: 60px;
 }
 
 /* END COMMENT SECTION  */
