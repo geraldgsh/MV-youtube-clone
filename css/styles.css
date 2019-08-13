@@ -98,13 +98,11 @@ header{
 
 .wrapper > div{
 	background: white;
-	border: black solid;
 	padding: 1em;
 }
 
 .wrapper > div:nth-child(odd){
 	background: white;
-	border: black solid;
 	padding: 1em;
 } 
 
@@ -264,12 +262,12 @@ header{
 }
 
 .add-comment input {
-    width: 680px;
+    width: 1000px;
     border: 1px solid #d6d6d6;
     position: relative;
     float: right;
     bottom: 45px;
-    right: 75px;
+    right: 85px;
 }
 
 .user-avatar {
