@@ -297,16 +297,25 @@ header{
     bottom: 3px;
 }
 
+.add-comment {
+
+}
+
 .add-comment input {
-    width: 780px;
+    width: 680px;
     border: 1px solid #d6d6d6;
+    position: relative;
+    float: right;
+    bottom: 45px;
+    right: 50px;
 }
 
 .user-avatar {
     height: 100%;
     width: 64px;
     margin: 2px;
-    float: left;
+    position: relative;
+    left: 50px;
 }
 
 /* END COMMENT SECTION  */
