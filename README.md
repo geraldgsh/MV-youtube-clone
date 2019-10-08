@@ -1,9 +1,41 @@
-# PROJECT-EMBEDDING_IMAGES_AND_VIDEO MICROVERSE PROJECT
+## Embedding Images and Video MICROVERSE PROJECT
+[Collaborative project]
 
-Introduction
+# Introduction
+This project consists of building an HTML document that matches the appearance of youtube video player page.
 Our first project will require you to draw on your new understanding of working with media by building YouTube’s video player page.
 
 The goal here isn’t to produce an exact replica of the YouTube video page, but to focus on making the media elements show up. That means two things – embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
+
+## Microverse Adjustments
+This Project is the only part of the “Basic HTML Page Structure” lesson that we will complete, all other sections in this lesson will be skipped as you should be already familiar with basics. If you feel like you need some refresh, go back and read all lessons in this section.
+Your task is to clone YouTube’s video player page. Please use web archive link: http://archive.today/Bss88 as a source page.
+
+## Project Requirements
+
+# Navigation bar
+-It has an embedded image that represents a logo.
+-The logo is aligned to the leftmost part of the navbar.
+-It has an input tag that represents a search bar.
+-The search bar is aligned to the middle of the navbar.
+-It has a button tag that represents the search button.
+-The search button is at the end (rightmost part) of the search bar.
+-It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
+
+# Video
+-It is displayed.
+-It shows the video title.
+-It shows the number of views.
+-It has like and dislike icons.
+-It has a share button.
+-It shows the avatar of the user who uploaded the video.
+-It has a subscribe button.
+
+# Sidebar Recommended videos
+-It shows the recommended video’s thumbnail preview.
+-It shows the title of the video.
+-It shows the number of views..
+
 
 Steps
 1. Create a blank HTML document.
@@ -27,3 +59,13 @@ Steps
 10. Push your solution up to Github.
 
 Source: https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video
+
+## Github Repo
+https://github.com/davitomix/CustomGridFrameWork
+
+
+## Contributors
+
+David Martinez [GitHub](https://github.com/davitomix)
+
+Gerald Goh [GItHub](https://github.com/geraldgsh/)
